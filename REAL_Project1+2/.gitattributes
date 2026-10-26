@@ -1,0 +1,3 @@
+# Keep handoff snapshot hashes identical across checkout platforms.
+final_places.csv -text whitespace=cr-at-eol
+route_input.json -text whitespace=cr-at-eol

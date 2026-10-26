@@ -1,0 +1,13 @@
+.venv/
+.streamlit/secrets.toml
+__pycache__/
+.pytest_cache/
+data/
+outputs/
+artifacts/
+*.zip
+REAL_Project1+2_전달용/
+**/secrets.toml
+.env
+.env.*
+!.env.example

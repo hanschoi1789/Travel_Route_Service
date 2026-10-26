@@ -1,0 +1,186 @@
+{
+  "schema_version": "2.0",
+  "created_at": "2026-10-26T18:56:55.326746+09:00",
+  "timezone": "Asia/Seoul",
+  "trip": {
+    "source": "kakao_local",
+    "min_restaurants": 2,
+    "region": "서울",
+    "main_query": "경복궁",
+    "main_place_id": "18619553",
+    "target_count": 4,
+    "desired_count": 5,
+    "radius_m": 5000.0,
+    "transport": "도보",
+    "trip_date": "2026-10-26",
+    "start_time": "09:00:00",
+    "end_time": "18:00:00",
+    "average_stay_minutes": 90,
+    "auto_adjust_count": true,
+    "preferences": {
+      "자연": 3,
+      "맛집": 3,
+      "문화": 3,
+      "쇼핑": 3,
+      "휴식": 3,
+      "활동": 3,
+      "실내": 3
+    },
+    "captured_at": "2026-10-26T09:53:36.592705+00:00",
+    "meal_stay_minutes": 60,
+    "restaurant_candidates_added": [
+      "14612458",
+      "16991898",
+      "315263661",
+      "1230285142",
+      "1317364559",
+      "1487838869",
+      "1490558390",
+      "1492356072",
+      "1532927894",
+      "953290073",
+      "829042590",
+      "94399204"
+    ]
+  },
+  "route_verified": false,
+  "instructions": "장소 집합만 확정. 영업 구간에서 체류시간을 빼 도착 가능 구간을 사용하고 이동시간·식사 배치·전체 일정 가능성을 검증한다. unknown을 24시간 영업으로 바꾸지 않는다.",
+  "meal_assignment_example": {
+    "lunch": "1490558390",
+    "dinner": "953290073"
+  },
+  "places": [
+    {
+      "place_id": "18619553",
+      "google_place_id": "ChIJod7tSseifDUR9hXHLFNGMIs",
+      "name": "경복궁",
+      "lat": 37.577613288258206,
+      "lng": 126.97689786832184,
+      "coordinate_source": "kakao_local",
+      "mandatory": true,
+      "meal_required": false,
+      "meal_options": [],
+      "stay_minutes": 90,
+      "opening_intervals": [
+        [
+          540,
+          1080
+        ]
+      ],
+      "visit_start_windows": [
+        [
+          540,
+          990
+        ]
+      ],
+      "meal_start_windows": {},
+      "hours_source": "currentOpeningHours",
+      "requires_hours_check": false,
+      "selection_reason": "메인·사용자 필수 장소; 여행 시간 내 체류 가능한 영업 구간 확인"
+    },
+    {
+      "place_id": "953290073",
+      "google_place_id": "ChIJLxWMf2WjfDURF-gdESesSoQ",
+      "name": "즉석떡볶이궁",
+      "lat": 37.5762848468511,
+      "lng": 126.979758966193,
+      "coordinate_source": "kakao_local",
+      "mandatory": true,
+      "meal_required": true,
+      "meal_options": [
+        "lunch",
+        "dinner"
+      ],
+      "stay_minutes": 60,
+      "opening_intervals": [
+        [
+          660,
+          1260
+        ]
+      ],
+      "visit_start_windows": [
+        [
+          660,
+          1020
+        ]
+      ],
+      "meal_start_windows": {
+        "lunch": [
+          [
+            660,
+            810
+          ]
+        ],
+        "dinner": [
+          [
+            1020,
+            1020
+          ]
+        ]
+      },
+      "hours_source": "currentOpeningHours",
+      "requires_hours_check": false,
+      "selection_reason": "평가 근거 우선순위에 따라 선정; 점심·저녁을 각각 배치할 수 있는 서로 다른 식당 2곳 조건 충족; 여행 시간 내 체류 가능한 영업 구간 확인"
+    },
+    {
+      "place_id": "1490558390",
+      "google_place_id": "ChIJR4-z3dmjfDUR81tFY1FOgGU",
+      "name": "무구옥 본점",
+      "lat": 37.5763938907664,
+      "lng": 126.97989704684,
+      "coordinate_source": "kakao_local",
+      "mandatory": true,
+      "meal_required": true,
+      "meal_options": [
+        "lunch"
+      ],
+      "stay_minutes": 60,
+      "opening_intervals": [
+        [
+          660,
+          840
+        ],
+        [
+          1050,
+          1200
+        ]
+      ],
+      "visit_start_windows": [
+        [
+          660,
+          780
+        ]
+      ],
+      "meal_start_windows": {
+        "lunch": [
+          [
+            660,
+            780
+          ]
+        ],
+        "dinner": []
+      },
+      "hours_source": "currentOpeningHours",
+      "requires_hours_check": false,
+      "selection_reason": "평가 근거 우선순위에 따라 선정; 점심·저녁을 각각 배치할 수 있는 서로 다른 식당 2곳 조건 충족; 여행 시간 내 체류 가능한 영업 구간 확인"
+    },
+    {
+      "place_id": "968776522",
+      "google_place_id": "ChIJs1U2k-KjfDURlb3q2Yy2Mac",
+      "name": "통의동마을마당",
+      "lat": 37.5786172204049,
+      "lng": 126.973667722037,
+      "coordinate_source": "kakao_local",
+      "mandatory": false,
+      "meal_required": false,
+      "meal_options": [],
+      "stay_minutes": 90,
+      "opening_intervals": null,
+      "visit_start_windows": null,
+      "meal_start_windows": {},
+      "hours_source": "unknown",
+      "requires_hours_check": true,
+      "selection_reason": "평가 근거 우선순위에 따라 선정; 영업시간 미제공: 방문 전 확인 필요"
+    }
+  ]
+}

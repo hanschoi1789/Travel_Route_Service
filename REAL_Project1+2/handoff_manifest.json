@@ -1,0 +1,58 @@
+{
+  "status": "success",
+  "snapshot": true,
+  "created_at": "2026-10-26T18:56:55.326746+09:00",
+  "packaged_at": "2026-10-26T10:38:25.753122+00:00",
+  "source_run": "20261026_190434_221325",
+  "trip": {
+    "source": "kakao_local",
+    "min_restaurants": 2,
+    "region": "서울",
+    "main_query": "경복궁",
+    "main_place_id": "18619553",
+    "target_count": 4,
+    "desired_count": 5,
+    "radius_m": 5000.0,
+    "transport": "도보",
+    "trip_date": "2026-10-26",
+    "start_time": "09:00:00",
+    "end_time": "18:00:00",
+    "average_stay_minutes": 90,
+    "auto_adjust_count": true,
+    "preferences": {
+      "자연": 3,
+      "맛집": 3,
+      "문화": 3,
+      "쇼핑": 3,
+      "휴식": 3,
+      "활동": 3,
+      "실내": 3
+    },
+    "captured_at": "2026-10-26T09:53:36.592705+00:00",
+    "meal_stay_minutes": 60,
+    "restaurant_candidates_added": [
+      "14612458",
+      "16991898",
+      "315263661",
+      "1230285142",
+      "1317364559",
+      "1487838869",
+      "1490558390",
+      "1492356072",
+      "1532927894",
+      "953290073",
+      "829042590",
+      "94399204"
+    ]
+  },
+  "selected_count": 4,
+  "files": {
+    "final_places.csv": {
+      "sha256": "795356e045454bb333bc1a10dcf640367acfc129308fb954ae0cf4f95e93d068"
+    },
+    "route_input.json": {
+      "sha256": "b027cd6966204695f7e9f41933eeed8975fc51def6bdef37fd4a7633c3abe854"
+    }
+  },
+  "note": "전달 시점의 결과입니다. 새 실행 후 이 스크립트를 실행하면 최신 성공 결과로 갱신합니다."
+}
